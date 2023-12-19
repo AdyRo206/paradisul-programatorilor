@@ -1,0 +1,267 @@
+body{
+    background-image: url(assets/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+.nav-logo{
+    padding-left: 25px;
+    width: 50px;
+}
+
+.nav-logo img{
+    width: 150px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
+
+.navbar{
+    display: flex;
+}
+
+.nav-item{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 25px;
+}
+
+.nav-item a{
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+    font-family: 'Anonymous Pro';
+    transition: 2s;
+}
+
+.nav-item a:hover{
+    color: darkgray;
+}
+
+.button{
+    padding-top: 15px;
+    padding-right: 35px;
+}
+
+.button button a{
+    color: white;
+    text-decoration: none;
+}
+
+.button button{
+    font-size: large;
+    color: white;
+    background-color: rgb(0, 89, 190);
+    border-color: rgb(0, 89, 190);
+    padding: 7px;
+    font-family: 'Audiowide';
+    transition: 2s;
+}
+
+.button button:hover{
+    cursor: pointer;
+    background-color: rgb(0, 141, 24);
+    border-color: rgb(0, 141, 24);
+}
+
+.left{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    padding-bottom: 15px;
+    padding-left: 15px;
+}
+
+.right{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: white;
+    padding-bottom: 15px;
+    padding-right: 15px;
+}
+
+.right a{
+    color: white;
+}
+
+.left a{
+    color: white;
+}
+
+.content{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    color: rgb(207, 207, 207);
+}
+
+.content h1{
+    font-family: 'Bungee Inline';
+}
+
+.content h2{
+    font-family: 'Cherry Swash';
+}
+
+.center{
+    position:absolute;
+    bottom:0px;
+    right:40%;
+    left:47%;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 10px;
+}
+
+.center button{
+    font-family: 'Audiowide';
+    font-size: medium;
+    color: white;
+    background-color: rgb(247, 0, 255);
+    border-color: rgb(247, 0, 255);
+    border-radius: 60px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: 2s;
+}
+
+.center button:hover{
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: red;
+    border-color: red;
+    color: rgb(190, 190, 190);
+    cursor: pointer;
+}
+
+.center button a{
+    color: white;
+    text-decoration: none;
+    transition: 2s;
+}
+
+.center button a:hover{
+    color: rgb(190, 190, 190);
+}
+
+    * {
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+      }
+      
+      body {
+        padding: 0;
+        margin: 0;
+      }
+      
+      #mobile {
+        position: relative;
+        height: 100vh;
+      }
+      
+      #mobile .mobile {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+      }
+      
+      .mobile {
+        max-width: 520px;
+        width: 100%;
+        line-height: 1.4;
+        text-align: center;
+      }
+      
+      .mobile .mobile-464 {
+        position: relative;
+        height: 240px;
+      }
+      
+      .mobile .mobile-464 h1 {
+        font-family: 'Montserrat', sans-serif;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+        font-size: 252px;
+        font-weight: 900;
+        margin: 0px;
+        color: #262626;
+        text-transform: uppercase;
+        letter-spacing: -40px;
+        margin-left: -20px;
+      }
+      
+      .mobile .mobile-464 h1>span {
+        text-shadow: -8px 0px 0px #fff;
+      }
+      
+      .mobile .mobile-464 h3 {
+        font-family: 'Cabin', sans-serif;
+        position: relative;
+        font-size: 16px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #262626;
+        margin: 0px;
+        letter-spacing: 3px;
+        padding-left: 6px;
+      }
+      
+      .mobile h2 {
+        font-family: 'Cabin', sans-serif;
+        font-size: 20px;
+        font-weight: 400;
+        text-transform: uppercase;
+        color: #000;
+        margin-top: 0px;
+        margin-bottom: 25px;
+      }
+      
+      @media only screen and (max-width: 767px) {
+        .mobile .mobile-464 {
+          height: 200px;
+        }
+        .mobile .mobile-464 h1 {
+          font-size: 200px;
+        }
+        .desktop{
+            display: none;
+        }
+        body{
+            background-color: white;
+            background-image: none;
+        }
+      }
+      
+      @media only screen and (min-width: 767px) {
+        .mobile{
+            display: none;
+        }
+    }
+
+      @media only screen and (max-width: 480px) {
+        .mobile .mobile-464 {
+          height: 162px;
+        }
+        .mobile .mobile-464 h1 {
+          font-size: 162px;
+          height: 150px;
+          line-height: 162px;
+        }
+        .mobile h2 {
+          font-size: 16px;
+        }
+      }
+      
