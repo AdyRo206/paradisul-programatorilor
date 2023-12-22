@@ -17,6 +17,6 @@ var x = setInterval(function() {
 
   if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("demo").innerHTML = "Site-ul nostru va fi gata in curand";
   }
 }, 1000);
