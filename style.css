@@ -5,6 +5,10 @@
     background-color: black;
 }
 
+body{
+  font-family: Anaheim;
+}
+
 
 .nav-logo{
     padding-left: 25px;
@@ -345,4 +349,30 @@ input[type=submit]{
   width: 500px;
   margin-left: auto;
   margin-right: auto;
+}
+
+.cours_info{
+  display: flex;
+  justify-content: space-around;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.cours_info p, tbody{
+  text-align: left;
+  font-size: 20px;
+}
+
+.cours_info h1{
+  font: 35px;
+}
+
+.cleft{
+  float: left;
+  width: 30%;
+}
+
+.cright{
+  float: right;
+  width: 30%;
 }
