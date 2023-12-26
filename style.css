@@ -42,7 +42,8 @@ body{
 }
 
 .nav-item a:hover{
-    color: darkgray;
+    color: #7800da;
+    text-decoration: underline;
 }
 
 .button{
@@ -271,10 +272,6 @@ body{
   transition: 0.5s;
 }
 
-.courses a:hover{
-  color: #7800da;
-  text-decoration: underline;
-}
 
 .card{
   box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.24);
@@ -361,7 +358,6 @@ input[type=submit]{
   display: flex;
   justify-content: space-around;
   word-wrap: break-word;
-  text-align: center;
 }
 
 .cours_info p, tbody{
@@ -385,7 +381,7 @@ input[type=submit]{
 
 .cdown{
   text-align: center;
-  font-size: 28px;
+  font-size: 20px;
 }
 
 .cdown a{
@@ -399,5 +395,13 @@ input[type=submit]{
 
 .cdown a:hover{
   color: #ffffff;
-  border-radius: 40px;
+  border-radius: 30px;
+}
+
+.about * {
+  color: black;
+}
+
+.about a{
+  color: black;
 }
