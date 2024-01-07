@@ -362,7 +362,7 @@ input[type=submit]{
 .ab_des{
   margin-left: 25%;
   margin-right: 25%;
-  font-size: 17px;
+  font-size: 19px;
 }
 
 .ab_content{
@@ -389,4 +389,11 @@ input[type=submit]{
 
 .ab_team h1{
   text-align: center;
+  margin-bottom: 0;
+}
+
+.post{
+  text-align: center;
+  font-size: 20px;
+  margin-top: 0;
 }
