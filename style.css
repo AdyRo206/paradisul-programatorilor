@@ -397,3 +397,9 @@ input[type=submit]{
   font-size: 20px;
   margin-top: 0;
 }
+
+.price{
+  text-decoration: line-through;
+  text-decoration-color: red;
+  text-decoration-thickness: 2px;
+}
