@@ -79,6 +79,7 @@ body{
 .cfooter{
   display:flex;
   justify-content: space-between;
+  margin-top: 50px;
 }
 
 .cfleft{
@@ -214,6 +215,7 @@ body{
   margin-left: 20px;
   border-radius: 20%;
   font-family: "Anaheim", sans-serif;
+  height: 30%;
 }
 
 .card:hover{
