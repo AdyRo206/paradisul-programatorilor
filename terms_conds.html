@@ -6,7 +6,64 @@
     <title>Paradisul Programatorilor | Termeni si Conditii</title>
 </head>
 <body>
+    <style>
+        #overlay {
+            position: fixed;
+            display: none;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 2;
+            cursor: pointer;
+        }
 
+        #popup {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+            z-index: 3;
+        }
+
+        #popup p{
+            font-size: 20px;
+        }
+
+        .close-btn {
+            float: right;
+            font-size: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="overlay">
+        <div id="popup">
+            <span class="close-btn" onclick="closePopup()">&times;</span>
+            <h1>Atentie!</h1>
+            <p>Aceasta pagina web este inca in dezvolatare. </p>
+        </div>
+    </div>
+
+    <script>
+        function showPopup() {
+            document.getElementById("overlay").style.display = "block";
+        }
+        function closePopup() {
+            document.getElementById("overlay").style.display = "none";
+        }
+
+        window.onload = function() {
+            showPopup();
+        };
+    </script>
     <style>
 
         .terms{
@@ -109,7 +166,7 @@
 
                 <h1>7.Abonarea Utilizatorilor la newslwettere si alerte</h1>
                 <p>
-                    Utilizatorii site-ului au posibilitatea de a primi newslettere si alerte prin posta electronica, existand posibilitatea ca Utilizatorii sa poata opta oricand pentru varianta de a nu mai primi astfel de notificari, cu un singur click pe link-ul de dezabonare din newsletter/alerta primita pe mailul introdus explicit la abonare. <br><br>
+                    Utilizatorii site-ului au posibilitatea de a primi newslettere si alerte prin posta electronica, existand posibilitatea ca Utilizatorii sa poata opta oricand pentru letianta de a nu mai primi astfel de notificari, cu un singur click pe link-ul de dezabonare din newsletter/alerta primita pe mailul introdus explicit la abonare. <br><br>
 
                     Fata de faptul ca accesul la produsele oferite prin intermediul site-ului se realizeaza prin intermediul unui cont activ, asadar pe baza unui nume de utilizator si a unei parole, recomandam Utilizatorilor ca aceste elemente sa nu fie dezvaluite unor terte persoane, chiar daca acestea afirma ca va contacteaza din partea site-ului.<br><br>
 
